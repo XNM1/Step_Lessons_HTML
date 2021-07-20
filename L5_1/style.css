@@ -1,0 +1,31 @@
+table {
+    empty-cells: hide;
+    caption-side: top;
+}
+
+td,
+th {
+    border: 3px solid black;
+    text-align: end;
+    vertical-align: bottom;
+}
+
+thead {
+    color: brown;
+}
+
+tbody {
+    color: teal;
+}
+
+tfoot {
+    color: chocolate;
+}
+
+.col1 {
+    background-color: yellow;
+}
+
+.col2 {
+    background-color: aqua;
+}

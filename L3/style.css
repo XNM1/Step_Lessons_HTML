@@ -1,0 +1,28 @@
+/* .hello {
+    color: blue;
+    text-decoration-color: red;
+    text-decoration-line: line-through;
+    text-decoration-style: dotted;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
+
+/* .hello:hover {
+    white-space: pre;
+    color: red;
+    cursor: pointer;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+/* .hello {
+    margin: 20px 0px 0px 5px;
+    padding: 20px;
+    width: 1000px;
+    height: 1000px;
+    border: 50px solid #000;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50% 50%, 100% 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTplzBn_SL4cKymPA7DV9o826xVtBB8vYgO8A&usqp=CAU), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSukCzd_pp94Sydp7k83i6iQzAuUI9Kuvvr0A&usqp=CAU);
+} */

@@ -1,0 +1,27 @@
+body {
+    height: 5000px;
+}
+
+main {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+    height: 2000px;
+    width: fit-content;
+}
+
+div {
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+    background-color: green;
+}
+
+.hello {
+    /* display: none; */
+    background-color: red;
+    position: relative;
+    top: 0px;
+    left:0px;
+    /* visibility: hidden; */
+}

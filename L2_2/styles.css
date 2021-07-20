@@ -1,0 +1,20 @@
+p {
+    color: darkolivegreen;
+}
+
+#main {
+    color:yellowgreen;
+    font-size: 22pt;
+}
+
+.children {
+    letter-spacing: 5px;
+}
+
+div[style="color:red"] {
+    font-weight: bold;
+}
+
+p + div {
+    font-style: italic;
+}
