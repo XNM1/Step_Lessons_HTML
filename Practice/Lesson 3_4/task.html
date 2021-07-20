@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Task</title>
+		<meta charset="utf-8"/>
+		<style>
+			.fib { 
+				list-style-type: none;
+				counter-reset: number;
+			}
+			.fib li::before {
+				content: counter(number) ". ( ͡° ͜ʖ ͡°) ";
+				counter-increment: number -3;
+			}
+		</style>
+	</head>
+	<body>
+		<ol>
+			<li>Lorem</li>
+			<li>ipsum</li>
+			<li>dolor</li>
+			<li>sit</li>
+			<li>amet</li>
+		</ol>
+		<dl>
+			<dt>Cras</dt>
+			<dd>Vestibulum est massa, euismod a imperdiet nec, ultrices eu mauris. Ut sit amet dignissim odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce at enim metus. Suspendisse ut suscipit orci, sit amet gravida velit. Maecenas posuere, tortor vitae cursus semper, erat tortor posuere purus, at posuere ante metus a nisl. Nullam blandit, eros eu malesuada lobortis, justo magna tempus libero, non porttitor risus turpis vitae turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis sem lorem, fringilla a vehicula sit amet, mattis et quam. Sed faucibus elit eu orci facilisis, ut aliquam neque posuere.</dd>
+			<dt>Congue</dt>
+			<dd>Fusce eget aliquam massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce varius luctus pharetra. Vivamus mollis elementum lacinia. Vivamus ac leo ornare nunc ullamcorper egestas ut sed mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Aenean ex nisl, finibus sed volutpat non, mattis sit amet nisi.</dd>
+			<dt>Turpis</dt>
+			<dd>Donec sit amet vulputate nisi, vitae rhoncus tellus. Nam suscipit mauris in quam feugiat malesuada. Suspendisse dolor diam, venenatis sed tempus eget, vulputate a massa. Nulla eu rhoncus diam. Maecenas placerat odio sed mi pellentesque, et porta ex elementum. Proin efficitur quis lectus id gravida. Pellentesque mollis porttitor sem sit amet ullamcorper. Duis in placerat risus. Vestibulum vehicula non ex non ullamcorper. Quisque et nisi eget risus tempor placerat. Pellentesque efficitur libero vel enim tempus faucibus eget vel ipsum. Nulla eget ultrices elit. Morbi ac ante nec enim tempus pulvinar.</dd>
+			<dt>Neque</dt>
+			<dd>Aenean in tempus velit. Integer et rhoncus libero, eget ultricies magna. Sed quis sem eros. Curabitur non massa et nisi ullamcorper sollicitudin non nec elit. Ut id tellus id nulla scelerisque consectetur sed ac tortor. Sed varius sodales sagittis. Proin ut sem congue, consectetur felis ac, vestibulum enim.</dd>
+		</dl>
+		<ol start=6>
+			<li>Ut</li>
+			<li>cursus</li>
+			<li>vestibulum</li>
+			<li>mi</li>
+			<li>sed</li>
+		</ol>
+		<details>
+			<summary>Pellentesque</summary>
+			<ol class="fib">
+				<li>Vivamus</li>
+				<li>sollicitudin</li>
+				<li>Suspendisse</li>
+				<li>enim</li>
+				<li>nibh</li>
+			</ol>
+		</details>
+	</body>
+</html>

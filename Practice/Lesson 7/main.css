@@ -1,0 +1,17 @@
+.anim {
+	animation-name: move_left;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-in;
+
+	width: 100px;
+	height: 100px;
+	background-color: darkcyan;
+}
+
+@keyframes move_left {
+	100% {
+		transform: translateX(1000px);
+	}
+}

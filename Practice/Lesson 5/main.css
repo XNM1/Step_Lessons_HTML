@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+.heart {
+	position: relative;
+	height: 100px;
+	width: 100px;
+	margin: 200px;
+	background-color: red;
+	border-radius: 10%;
+}
+
+.heart:after,
+.heart:before {
+	content: "";
+	position: absolute;
+}
+
+.heart:after {
+	background-color: yellow;
+	width:50px;
+	height:25px;
+	left: 120px;
+	top:15px;
+	border-radius: 10%;
+}
+
+.heart:before {
+	background-color: green;
+	width:200px;
+	height:200px;
+	left: -220px;
+	top:-50px;
+	border-radius: 10%;
+}
+

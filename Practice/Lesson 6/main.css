@@ -1,0 +1,14 @@
+
+
+
+
+
+div {
+	height: 500px;
+	display:flex;
+}
+html {
+	display: block;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}

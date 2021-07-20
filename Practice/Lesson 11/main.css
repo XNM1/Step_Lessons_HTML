@@ -1,0 +1,13 @@
+.flex-container {
+  display: flex;
+  align-items: baseline;
+  justify-content:center;
+  width: 1000px;
+  height: 1000px;
+  border: 2px solid black;
+}
+
+.flex-elem {
+  width: 100px;
+  height: 100px;
+}

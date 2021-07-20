@@ -1,0 +1,7 @@
+.grid-container {
+  display:grid;
+  grid-template-columns: 50px repeat(2, 1fr);
+  grid-template-rows: 2fr 10fr 2fr 20fr;
+  gap: 20px;
+  background-color: bisque;
+}

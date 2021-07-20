@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+input:focus {
+	color:#99CCCC;
+}
+
+input:checked + label {
+	color:#99CCCC;
+}
+
+input:hover + label, label:hover {
+	color:#99ffff;
+}
